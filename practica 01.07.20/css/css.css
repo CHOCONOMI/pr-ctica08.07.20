@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cajamayor {
+    margin: auto;
+    margin-top: 200px;
+    font-size: 10px;
+    width: 30em;
+    height: 35em;
+    border: 0.1em solid gray;
+}
+
+.cajamayor:hover{
+    width: 35em;
+    height: 40em;
+    background-color: aquamarine;
+    box-shadow: 10px 10px 14px 0px rgba(0,87,41,1);
+    transition: 0.3s;
+    border: none;
+    padding: 3em;
+}
+
+.picture{
+    width: 20em;
+    height: 20em;
+    margin: auto;
+    padding-top: 0.3em;
+}
+
+.picture img{
+    margin: auto;
+    width: 20em;
+}
+
+.info {
+    margin: auto;
+    margin-top: 2em;
+    width: 25em;
+    text-align: center;
+}
+
+.info h2{
+    font-size: 2em;
+}
+
+.info p{
+    font-size: 2em;
+}
